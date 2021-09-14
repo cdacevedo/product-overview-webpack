@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
@@ -19,7 +20,8 @@ module.exports = {
       },
       {
         test: /\.(ts|tsx)$/,
-        loader: 'ts-loader',
+        use: ['ts-loader', 'eslint-loader'],
+        exclude: /node_modules/,
       },
       {
         enforce: 'pre',
@@ -31,6 +33,9 @@ module.exports = {
         use: ['css-loader', 'postcss-loader'],
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new CopyPlugin({

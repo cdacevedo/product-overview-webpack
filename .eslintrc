@@ -1,0 +1,14 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {},
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "globals": {
+    "global": false,
+    "Promise": false
+  }
+}
