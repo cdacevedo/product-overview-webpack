@@ -1,13 +1,13 @@
-import {FC} from 'react';
+import { FC } from 'react';
 
-import { Header, Brand } from './styles'
+import { Header, Brand } from './styles';
 
 const Toolbar: FC = () => {
   return (
-    <Header>
-      <Brand />
-    </Header>
-  )
-}
+    <header className='w-100-p py-4'>
+      <Brand className='mx-auto w-12 sm:w-14' />
+    </header>
+  );
+};
 
-export default Toolbar
+export default Toolbar;

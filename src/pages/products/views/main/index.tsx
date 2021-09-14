@@ -20,7 +20,7 @@ const Main = () => {
   }, []);
 
   return (
-    <Content>
+    <div className='py-4'>
       <Typography as='h1' variant='h1'>
         List of products
       </Typography>
@@ -31,7 +31,7 @@ const Main = () => {
           </Card>
         </Link>
       ))}
-    </Content>
+    </div>
   );
 };
 

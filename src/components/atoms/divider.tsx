@@ -1,9 +1,3 @@
-import styled from 'styled-components';
+const Divider = () => <div className='w-full bg-gray-100 h-0.5' />;
 
-const Divider = styled.div`
-  width: 100%;
-  height: 1px;
-  background: #EEEFF2;
-`
-
-export default Divider
+export default Divider;

@@ -11,9 +11,9 @@ export const Header = styled.header`
 export const Brand = styled.img.attrs({
   src: BrandImage
 })`
-  width: 58px;
+  /* width: 58px;
 
   @media(max-width: 320px) {
     width: 50px;
-  }
+  } */
 `
