@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const MiniCssPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -30,7 +31,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['css-loader', 'postcss-loader'],
+        use: [MiniCssPlugin.loader, 'css-loader', 'postcss-loader'],
       },
     ],
   },
@@ -38,6 +39,7 @@ module.exports = {
     historyApiFallback: true,
   },
   plugins: [
+    new MiniCssPlugin(),
     new CopyPlugin({
       patterns: [
         {

@@ -24,8 +24,8 @@ const Main = () => {
       <Typography as='h1' variant='h1'>
         List of products
       </Typography>
-      {products.map((product: ProductData) => (
-        <Link to={`/products/details/${product.id}`}>
+      {products.map((product: ProductData, key: number) => (
+        <Link key={key} to={`/products/details/${product.id}`}>
           <Card hoverable>
             <Typography variant='title'>{product.name}</Typography>
           </Card>
