@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MOMENTUM True Wireless 2",
+      "description": "Earbuds that put sound first",
+      "price": 295.95,
+      "new": true,
+      "information": {
+        "overview": "For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different. Thanks to leading audio technology and innovation, these new earbuds deliver the best listening experience anytime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a more personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.",
+        "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et aliquam ligula, at iaculis sapien. Praesent in bibendum nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus dictum elit urna, sed laoreet mauris vestibulum sed. Nam blandit nulla eget sapien gravida tincidunt. Ut ac dui porttitor, sodales odio ut, luctus dolor.",
+        "whats_box": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et aliquam ligula, at iaculis sapien. Praesent in bibendum nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus dictum elit urna, sed laoreet mauris vestibulum sed. Nam blandit nulla eget sapien gravida tincidunt. Ut ac dui porttitor, sodales odio ut, luctus dolor."
+      },
+      "functions": [
+        {
+          "image": "/assets/products/1/functions/1.png",
+          "description": "Customizable Touch Controls "
+        },
+        {
+          "image": "/assets/products/1/functions/2.png",
+          "description": "Built-in Equalizer"
+        },
+        {
+          "image": "/assets/products/1/functions/3.png",
+          "description": "Active Noise Cancellation"
+        }
+      ],
+      "images": [
+        "/assets/products/1/overview/1.png",
+        "/assets/products/1/overview/2.png",
+        "/assets/products/1/overview/3.png"
+      ],
+      "colors": [
+        {
+          "title": "Ivory White",
+          "description": "For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True."
+        },
+        {
+          "title": "Matte Black",
+          "description": "Of all of the celestial bodies that capture our attention and fascination as astronomers."
+        }
+      ],
+      "warranty": [
+        {
+          "title": "2 years coverage",
+          "description": "For the past 75 years, Sennheiser has put sound first.",
+          "value": 2,
+          "cost": 0
+        },
+        {
+          "title": "3 years coverage",
+          "description": "For the past 75 years, Sennheiser has put sound first.",
+          "value": 3,
+          "cost": 75
+        }
+      ],
+      "features": [
+        {
+          "title": "Voice Assistant support",
+          "value": 1,
+          "cost": 0
+        },
+        {
+          "title": "Customizable controls",
+          "value": 2,
+          "cost": 25
+        }
+      ],
+      "specifications": [
+        {
+          "title": "Dimensions",
+          "description": "76.8 x 43.8 x 34.7 mm (earbuds and charging case)"
+        },
+        {
+          "title": "USB Standard",
+          "description": "USB-C"
+        },
+        {
+          "title": "Power supply",
+          "description": "Sennheiser 7mm dynamic driver"
+        },
+        {
+          "title": "Frequency response (Microphone)",
+          "description": "100 Hz to 10 kHz"
+        },
+        {
+          "title": "Frequency response",
+          "description": "5 - 21,000 Hz"
+        },
+        {
+          "title": "Noise cancellation",
+          "description": "Single-Mic ANC per earbud side"
+        }
+      ]
+    }
+  ]
+}

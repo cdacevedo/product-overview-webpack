@@ -1,0 +1,1 @@
+export const UPDATE_PRICE = 'Product::UPDATE_PRICE'
