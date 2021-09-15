@@ -8,7 +8,7 @@ import Divider from '../../components/atoms/divider';
 
 const General: FC = () => {
   return (
-    <Container as='main'>
+    <Container>
       <Toolbar />
       <Divider />
       <GeneralRoutes />

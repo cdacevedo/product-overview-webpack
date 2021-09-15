@@ -1,3 +1,4 @@
+'use strict';
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
@@ -20,7 +21,7 @@ module.exports = {
         loader: 'file-loader',
       },
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.(ts|tsx|jsx|js)$/,
         use: ['ts-loader', 'eslint-loader'],
         exclude: /node_modules/,
       },
